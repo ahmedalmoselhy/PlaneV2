@@ -1242,7 +1242,7 @@ Partial Class Form1
         '
         'TextBox1
         '
-        Me.TextBox1.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox1.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox1.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox1.Location = New System.Drawing.Point(140, 107)
@@ -1263,7 +1263,7 @@ Partial Class Form1
         '
         'TextBox2
         '
-        Me.TextBox2.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox2.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox2.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox2.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox2.Location = New System.Drawing.Point(140, 141)
@@ -1284,7 +1284,7 @@ Partial Class Form1
         '
         'TextBox3
         '
-        Me.TextBox3.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox3.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox3.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox3.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox3.Location = New System.Drawing.Point(140, 175)
@@ -1305,7 +1305,7 @@ Partial Class Form1
         '
         'TextBox4
         '
-        Me.TextBox4.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox4.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox4.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox4.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox4.Location = New System.Drawing.Point(140, 209)
@@ -1326,7 +1326,7 @@ Partial Class Form1
         '
         'TextBox5
         '
-        Me.TextBox5.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox5.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox5.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox5.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox5.Location = New System.Drawing.Point(140, 243)
@@ -1347,7 +1347,7 @@ Partial Class Form1
         '
         'TextBox6
         '
-        Me.TextBox6.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox6.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox6.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox6.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox6.Location = New System.Drawing.Point(140, 277)
@@ -1418,7 +1418,7 @@ Partial Class Form1
         '
         'TextBox7
         '
-        Me.TextBox7.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox7.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox7.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox7.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox7.Location = New System.Drawing.Point(1107, 132)
@@ -1429,7 +1429,7 @@ Partial Class Form1
         '
         'TextBox8
         '
-        Me.TextBox8.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox8.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox8.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox8.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox8.Location = New System.Drawing.Point(1107, 166)
@@ -1440,7 +1440,7 @@ Partial Class Form1
         '
         'TextBox9
         '
-        Me.TextBox9.BackColor = System.Drawing.SystemColors.Menu
+        Me.TextBox9.BackColor = System.Drawing.SystemColors.ScrollBar
         Me.TextBox9.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.TextBox9.Font = New System.Drawing.Font("qtquickcontrols", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.TextBox9.Location = New System.Drawing.Point(1107, 200)
@@ -1542,7 +1542,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.Color.Silver
+        Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(1387, 863)
         Me.Controls.Add(Me.Button76)
         Me.Controls.Add(Me.Button75)
@@ -1648,6 +1648,7 @@ Partial Class Form1
         Me.Controls.Add(Me.PictureBox1)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form1"
         Me.Text = "Egypt Airways"
