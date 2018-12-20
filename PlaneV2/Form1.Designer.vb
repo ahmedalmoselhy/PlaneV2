@@ -1524,10 +1524,10 @@ Partial Class Form1
         'Label15
         '
         Me.Label15.AutoSize = True
-        Me.Label15.Font = New System.Drawing.Font("Sitka Text", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label15.Font = New System.Drawing.Font("Cambria", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label15.Location = New System.Drawing.Point(1103, 243)
         Me.Label15.Name = "Label15"
-        Me.Label15.Size = New System.Drawing.Size(0, 28)
+        Me.Label15.Size = New System.Drawing.Size(0, 22)
         Me.Label15.TabIndex = 4
         '
         'Button73

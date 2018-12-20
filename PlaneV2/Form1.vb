@@ -166,9 +166,9 @@ Public Class Form1
         End If
 
         If j < 8 Then
-            Label15.Text = "First Class"
+            Label15.Text = "Seat " + (j + 1).ToString + " - First Class"
         Else
-            Label15.Text = "Second Class"
+            Label15.Text = "Seat " + (j + 1).ToString + " - Second Class"
         End If
     End Sub
 
