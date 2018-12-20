@@ -140,7 +140,8 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.FlatAppearance.BorderSize = 0
+        Me.Button1.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button1.FlatAppearance.BorderSize = 2
         Me.Button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -154,7 +155,8 @@ Partial Class Form1
         '
         'Button2
         '
-        Me.Button2.FlatAppearance.BorderSize = 0
+        Me.Button2.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button2.FlatAppearance.BorderSize = 2
         Me.Button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -168,7 +170,8 @@ Partial Class Form1
         '
         'Button3
         '
-        Me.Button3.FlatAppearance.BorderSize = 0
+        Me.Button3.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button3.FlatAppearance.BorderSize = 2
         Me.Button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -182,7 +185,8 @@ Partial Class Form1
         '
         'Button4
         '
-        Me.Button4.FlatAppearance.BorderSize = 0
+        Me.Button4.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button4.FlatAppearance.BorderSize = 2
         Me.Button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -196,7 +200,8 @@ Partial Class Form1
         '
         'Button5
         '
-        Me.Button5.FlatAppearance.BorderSize = 0
+        Me.Button5.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button5.FlatAppearance.BorderSize = 2
         Me.Button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -210,7 +215,8 @@ Partial Class Form1
         '
         'Button6
         '
-        Me.Button6.FlatAppearance.BorderSize = 0
+        Me.Button6.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button6.FlatAppearance.BorderSize = 2
         Me.Button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -224,7 +230,8 @@ Partial Class Form1
         '
         'Button7
         '
-        Me.Button7.FlatAppearance.BorderSize = 0
+        Me.Button7.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button7.FlatAppearance.BorderSize = 2
         Me.Button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -238,7 +245,8 @@ Partial Class Form1
         '
         'Button8
         '
-        Me.Button8.FlatAppearance.BorderSize = 0
+        Me.Button8.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
+        Me.Button8.FlatAppearance.BorderSize = 2
         Me.Button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -252,7 +260,8 @@ Partial Class Form1
         '
         'Button9
         '
-        Me.Button9.FlatAppearance.BorderSize = 0
+        Me.Button9.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button9.FlatAppearance.BorderSize = 2
         Me.Button9.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -267,7 +276,8 @@ Partial Class Form1
         '
         'Button10
         '
-        Me.Button10.FlatAppearance.BorderSize = 0
+        Me.Button10.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button10.FlatAppearance.BorderSize = 2
         Me.Button10.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -282,7 +292,8 @@ Partial Class Form1
         '
         'Button11
         '
-        Me.Button11.FlatAppearance.BorderSize = 0
+        Me.Button11.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button11.FlatAppearance.BorderSize = 2
         Me.Button11.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button11.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -297,7 +308,8 @@ Partial Class Form1
         '
         'Button12
         '
-        Me.Button12.FlatAppearance.BorderSize = 0
+        Me.Button12.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button12.FlatAppearance.BorderSize = 2
         Me.Button12.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button12.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -312,7 +324,8 @@ Partial Class Form1
         '
         'Button13
         '
-        Me.Button13.FlatAppearance.BorderSize = 0
+        Me.Button13.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button13.FlatAppearance.BorderSize = 2
         Me.Button13.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button13.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -327,7 +340,8 @@ Partial Class Form1
         '
         'Button14
         '
-        Me.Button14.FlatAppearance.BorderSize = 0
+        Me.Button14.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button14.FlatAppearance.BorderSize = 2
         Me.Button14.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button14.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -342,7 +356,8 @@ Partial Class Form1
         '
         'Button15
         '
-        Me.Button15.FlatAppearance.BorderSize = 0
+        Me.Button15.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button15.FlatAppearance.BorderSize = 2
         Me.Button15.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button15.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -357,7 +372,8 @@ Partial Class Form1
         '
         'Button16
         '
-        Me.Button16.FlatAppearance.BorderSize = 0
+        Me.Button16.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button16.FlatAppearance.BorderSize = 2
         Me.Button16.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button16.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -372,7 +388,8 @@ Partial Class Form1
         '
         'Button17
         '
-        Me.Button17.FlatAppearance.BorderSize = 0
+        Me.Button17.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button17.FlatAppearance.BorderSize = 2
         Me.Button17.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button17.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -387,7 +404,8 @@ Partial Class Form1
         '
         'Button18
         '
-        Me.Button18.FlatAppearance.BorderSize = 0
+        Me.Button18.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button18.FlatAppearance.BorderSize = 2
         Me.Button18.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button18.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -402,7 +420,8 @@ Partial Class Form1
         '
         'Button19
         '
-        Me.Button19.FlatAppearance.BorderSize = 0
+        Me.Button19.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button19.FlatAppearance.BorderSize = 2
         Me.Button19.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button19.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -417,7 +436,8 @@ Partial Class Form1
         '
         'Button20
         '
-        Me.Button20.FlatAppearance.BorderSize = 0
+        Me.Button20.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button20.FlatAppearance.BorderSize = 2
         Me.Button20.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button20.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -432,7 +452,8 @@ Partial Class Form1
         '
         'Button21
         '
-        Me.Button21.FlatAppearance.BorderSize = 0
+        Me.Button21.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button21.FlatAppearance.BorderSize = 2
         Me.Button21.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button21.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -447,7 +468,8 @@ Partial Class Form1
         '
         'Button22
         '
-        Me.Button22.FlatAppearance.BorderSize = 0
+        Me.Button22.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button22.FlatAppearance.BorderSize = 2
         Me.Button22.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button22.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -462,7 +484,8 @@ Partial Class Form1
         '
         'Button23
         '
-        Me.Button23.FlatAppearance.BorderSize = 0
+        Me.Button23.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button23.FlatAppearance.BorderSize = 2
         Me.Button23.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button23.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -477,7 +500,8 @@ Partial Class Form1
         '
         'Button24
         '
-        Me.Button24.FlatAppearance.BorderSize = 0
+        Me.Button24.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button24.FlatAppearance.BorderSize = 2
         Me.Button24.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button24.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -492,7 +516,8 @@ Partial Class Form1
         '
         'Button25
         '
-        Me.Button25.FlatAppearance.BorderSize = 0
+        Me.Button25.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button25.FlatAppearance.BorderSize = 2
         Me.Button25.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button25.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -507,7 +532,8 @@ Partial Class Form1
         '
         'Button26
         '
-        Me.Button26.FlatAppearance.BorderSize = 0
+        Me.Button26.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button26.FlatAppearance.BorderSize = 2
         Me.Button26.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button26.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -522,7 +548,8 @@ Partial Class Form1
         '
         'Button27
         '
-        Me.Button27.FlatAppearance.BorderSize = 0
+        Me.Button27.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button27.FlatAppearance.BorderSize = 2
         Me.Button27.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button27.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button27.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -537,7 +564,8 @@ Partial Class Form1
         '
         'Button28
         '
-        Me.Button28.FlatAppearance.BorderSize = 0
+        Me.Button28.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button28.FlatAppearance.BorderSize = 2
         Me.Button28.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button28.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -552,7 +580,8 @@ Partial Class Form1
         '
         'Button29
         '
-        Me.Button29.FlatAppearance.BorderSize = 0
+        Me.Button29.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button29.FlatAppearance.BorderSize = 2
         Me.Button29.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button29.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button29.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -567,7 +596,8 @@ Partial Class Form1
         '
         'Button30
         '
-        Me.Button30.FlatAppearance.BorderSize = 0
+        Me.Button30.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button30.FlatAppearance.BorderSize = 2
         Me.Button30.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button30.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button30.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -582,7 +612,8 @@ Partial Class Form1
         '
         'Button31
         '
-        Me.Button31.FlatAppearance.BorderSize = 0
+        Me.Button31.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button31.FlatAppearance.BorderSize = 2
         Me.Button31.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button31.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -597,7 +628,8 @@ Partial Class Form1
         '
         'Button32
         '
-        Me.Button32.FlatAppearance.BorderSize = 0
+        Me.Button32.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button32.FlatAppearance.BorderSize = 2
         Me.Button32.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button32.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button32.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -612,7 +644,8 @@ Partial Class Form1
         '
         'Button33
         '
-        Me.Button33.FlatAppearance.BorderSize = 0
+        Me.Button33.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button33.FlatAppearance.BorderSize = 2
         Me.Button33.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button33.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button33.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -627,7 +660,8 @@ Partial Class Form1
         '
         'Button34
         '
-        Me.Button34.FlatAppearance.BorderSize = 0
+        Me.Button34.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button34.FlatAppearance.BorderSize = 2
         Me.Button34.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button34.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -642,7 +676,8 @@ Partial Class Form1
         '
         'Button35
         '
-        Me.Button35.FlatAppearance.BorderSize = 0
+        Me.Button35.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button35.FlatAppearance.BorderSize = 2
         Me.Button35.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button35.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button35.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -657,7 +692,8 @@ Partial Class Form1
         '
         'Button36
         '
-        Me.Button36.FlatAppearance.BorderSize = 0
+        Me.Button36.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button36.FlatAppearance.BorderSize = 2
         Me.Button36.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button36.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button36.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -672,7 +708,8 @@ Partial Class Form1
         '
         'Button37
         '
-        Me.Button37.FlatAppearance.BorderSize = 0
+        Me.Button37.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button37.FlatAppearance.BorderSize = 2
         Me.Button37.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button37.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -687,7 +724,8 @@ Partial Class Form1
         '
         'Button38
         '
-        Me.Button38.FlatAppearance.BorderSize = 0
+        Me.Button38.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button38.FlatAppearance.BorderSize = 2
         Me.Button38.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button38.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button38.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -702,7 +740,8 @@ Partial Class Form1
         '
         'Button39
         '
-        Me.Button39.FlatAppearance.BorderSize = 0
+        Me.Button39.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button39.FlatAppearance.BorderSize = 2
         Me.Button39.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button39.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button39.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -717,7 +756,8 @@ Partial Class Form1
         '
         'Button40
         '
-        Me.Button40.FlatAppearance.BorderSize = 0
+        Me.Button40.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button40.FlatAppearance.BorderSize = 2
         Me.Button40.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button40.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -732,7 +772,8 @@ Partial Class Form1
         '
         'Button41
         '
-        Me.Button41.FlatAppearance.BorderSize = 0
+        Me.Button41.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button41.FlatAppearance.BorderSize = 2
         Me.Button41.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button41.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button41.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -747,7 +788,8 @@ Partial Class Form1
         '
         'Button42
         '
-        Me.Button42.FlatAppearance.BorderSize = 0
+        Me.Button42.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button42.FlatAppearance.BorderSize = 2
         Me.Button42.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button42.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button42.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -762,7 +804,8 @@ Partial Class Form1
         '
         'Button43
         '
-        Me.Button43.FlatAppearance.BorderSize = 0
+        Me.Button43.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button43.FlatAppearance.BorderSize = 2
         Me.Button43.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button43.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -777,7 +820,8 @@ Partial Class Form1
         '
         'Button44
         '
-        Me.Button44.FlatAppearance.BorderSize = 0
+        Me.Button44.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button44.FlatAppearance.BorderSize = 2
         Me.Button44.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button44.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button44.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -792,7 +836,8 @@ Partial Class Form1
         '
         'Button45
         '
-        Me.Button45.FlatAppearance.BorderSize = 0
+        Me.Button45.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button45.FlatAppearance.BorderSize = 2
         Me.Button45.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button45.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button45.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -807,7 +852,8 @@ Partial Class Form1
         '
         'Button46
         '
-        Me.Button46.FlatAppearance.BorderSize = 0
+        Me.Button46.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button46.FlatAppearance.BorderSize = 2
         Me.Button46.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button46.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -822,7 +868,8 @@ Partial Class Form1
         '
         'Button47
         '
-        Me.Button47.FlatAppearance.BorderSize = 0
+        Me.Button47.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button47.FlatAppearance.BorderSize = 2
         Me.Button47.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button47.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button47.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -837,7 +884,8 @@ Partial Class Form1
         '
         'Button48
         '
-        Me.Button48.FlatAppearance.BorderSize = 0
+        Me.Button48.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button48.FlatAppearance.BorderSize = 2
         Me.Button48.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button48.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button48.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -852,7 +900,8 @@ Partial Class Form1
         '
         'Button49
         '
-        Me.Button49.FlatAppearance.BorderSize = 0
+        Me.Button49.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button49.FlatAppearance.BorderSize = 2
         Me.Button49.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button49.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -867,7 +916,8 @@ Partial Class Form1
         '
         'Button50
         '
-        Me.Button50.FlatAppearance.BorderSize = 0
+        Me.Button50.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button50.FlatAppearance.BorderSize = 2
         Me.Button50.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button50.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button50.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -882,7 +932,8 @@ Partial Class Form1
         '
         'Button51
         '
-        Me.Button51.FlatAppearance.BorderSize = 0
+        Me.Button51.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button51.FlatAppearance.BorderSize = 2
         Me.Button51.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button51.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button51.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -897,7 +948,8 @@ Partial Class Form1
         '
         'Button52
         '
-        Me.Button52.FlatAppearance.BorderSize = 0
+        Me.Button52.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button52.FlatAppearance.BorderSize = 2
         Me.Button52.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button52.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -912,7 +964,8 @@ Partial Class Form1
         '
         'Button53
         '
-        Me.Button53.FlatAppearance.BorderSize = 0
+        Me.Button53.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button53.FlatAppearance.BorderSize = 2
         Me.Button53.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button53.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button53.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -927,7 +980,8 @@ Partial Class Form1
         '
         'Button54
         '
-        Me.Button54.FlatAppearance.BorderSize = 0
+        Me.Button54.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button54.FlatAppearance.BorderSize = 2
         Me.Button54.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button54.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button54.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -942,7 +996,8 @@ Partial Class Form1
         '
         'Button55
         '
-        Me.Button55.FlatAppearance.BorderSize = 0
+        Me.Button55.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button55.FlatAppearance.BorderSize = 2
         Me.Button55.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button55.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -957,7 +1012,8 @@ Partial Class Form1
         '
         'Button56
         '
-        Me.Button56.FlatAppearance.BorderSize = 0
+        Me.Button56.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button56.FlatAppearance.BorderSize = 2
         Me.Button56.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button56.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button56.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -972,7 +1028,8 @@ Partial Class Form1
         '
         'Button57
         '
-        Me.Button57.FlatAppearance.BorderSize = 0
+        Me.Button57.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button57.FlatAppearance.BorderSize = 2
         Me.Button57.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button57.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button57.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -987,7 +1044,8 @@ Partial Class Form1
         '
         'Button58
         '
-        Me.Button58.FlatAppearance.BorderSize = 0
+        Me.Button58.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button58.FlatAppearance.BorderSize = 2
         Me.Button58.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button58.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1002,7 +1060,8 @@ Partial Class Form1
         '
         'Button59
         '
-        Me.Button59.FlatAppearance.BorderSize = 0
+        Me.Button59.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button59.FlatAppearance.BorderSize = 2
         Me.Button59.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button59.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button59.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1017,7 +1076,8 @@ Partial Class Form1
         '
         'Button60
         '
-        Me.Button60.FlatAppearance.BorderSize = 0
+        Me.Button60.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button60.FlatAppearance.BorderSize = 2
         Me.Button60.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button60.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button60.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1032,7 +1092,8 @@ Partial Class Form1
         '
         'Button61
         '
-        Me.Button61.FlatAppearance.BorderSize = 0
+        Me.Button61.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button61.FlatAppearance.BorderSize = 2
         Me.Button61.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button61.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1047,7 +1108,8 @@ Partial Class Form1
         '
         'Button62
         '
-        Me.Button62.FlatAppearance.BorderSize = 0
+        Me.Button62.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button62.FlatAppearance.BorderSize = 2
         Me.Button62.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button62.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button62.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1062,7 +1124,8 @@ Partial Class Form1
         '
         'Button63
         '
-        Me.Button63.FlatAppearance.BorderSize = 0
+        Me.Button63.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button63.FlatAppearance.BorderSize = 2
         Me.Button63.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button63.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button63.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1077,7 +1140,8 @@ Partial Class Form1
         '
         'Button64
         '
-        Me.Button64.FlatAppearance.BorderSize = 0
+        Me.Button64.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button64.FlatAppearance.BorderSize = 2
         Me.Button64.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button64.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1092,7 +1156,8 @@ Partial Class Form1
         '
         'Button65
         '
-        Me.Button65.FlatAppearance.BorderSize = 0
+        Me.Button65.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button65.FlatAppearance.BorderSize = 2
         Me.Button65.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button65.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button65.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1107,7 +1172,8 @@ Partial Class Form1
         '
         'Button66
         '
-        Me.Button66.FlatAppearance.BorderSize = 0
+        Me.Button66.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button66.FlatAppearance.BorderSize = 2
         Me.Button66.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button66.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button66.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1122,7 +1188,8 @@ Partial Class Form1
         '
         'Button67
         '
-        Me.Button67.FlatAppearance.BorderSize = 0
+        Me.Button67.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button67.FlatAppearance.BorderSize = 2
         Me.Button67.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button67.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1137,7 +1204,8 @@ Partial Class Form1
         '
         'Button68
         '
-        Me.Button68.FlatAppearance.BorderSize = 0
+        Me.Button68.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button68.FlatAppearance.BorderSize = 2
         Me.Button68.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button68.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button68.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1152,7 +1220,8 @@ Partial Class Form1
         '
         'Button69
         '
-        Me.Button69.FlatAppearance.BorderSize = 0
+        Me.Button69.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button69.FlatAppearance.BorderSize = 2
         Me.Button69.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button69.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button69.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1167,7 +1236,8 @@ Partial Class Form1
         '
         'Button70
         '
-        Me.Button70.FlatAppearance.BorderSize = 0
+        Me.Button70.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button70.FlatAppearance.BorderSize = 2
         Me.Button70.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button70.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button70.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1182,7 +1252,8 @@ Partial Class Form1
         '
         'Button71
         '
-        Me.Button71.FlatAppearance.BorderSize = 0
+        Me.Button71.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button71.FlatAppearance.BorderSize = 2
         Me.Button71.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button71.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1197,7 +1268,8 @@ Partial Class Form1
         '
         'Button72
         '
-        Me.Button72.FlatAppearance.BorderSize = 0
+        Me.Button72.FlatAppearance.BorderColor = System.Drawing.Color.Teal
+        Me.Button72.FlatAppearance.BorderSize = 2
         Me.Button72.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button72.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button72.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
