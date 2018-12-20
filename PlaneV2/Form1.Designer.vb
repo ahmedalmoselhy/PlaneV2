@@ -124,6 +124,7 @@ Partial Class Form1
         Me.Button75 = New System.Windows.Forms.Button()
         Me.Button76 = New System.Windows.Forms.Button()
         Me.Button77 = New System.Windows.Forms.Button()
+        Me.Button78 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -1610,12 +1611,25 @@ Partial Class Form1
         Me.Button77.Text = "X"
         Me.Button77.UseVisualStyleBackColor = False
         '
+        'Button78
+        '
+        Me.Button78.BackColor = System.Drawing.Color.WhiteSmoke
+        Me.Button78.FlatAppearance.BorderSize = 0
+        Me.Button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button78.Location = New System.Drawing.Point(1304, -2)
+        Me.Button78.Name = "Button78"
+        Me.Button78.Size = New System.Drawing.Size(43, 35)
+        Me.Button78.TabIndex = 7
+        Me.Button78.Text = "ــــ"
+        Me.Button78.UseVisualStyleBackColor = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(1387, 863)
+        Me.Controls.Add(Me.Button78)
         Me.Controls.Add(Me.Button76)
         Me.Controls.Add(Me.Button75)
         Me.Controls.Add(Me.Button74)
@@ -1833,4 +1847,5 @@ Partial Class Form1
     Friend WithEvents Button75 As Button
     Friend WithEvents Button76 As Button
     Friend WithEvents Button77 As Button
+    Friend WithEvents Button78 As Button
 End Class

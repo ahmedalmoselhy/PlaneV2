@@ -131,6 +131,11 @@ Public Class Form1
         End
     End Sub
 
+
+    Private Sub Button78_Click(sender As Object, e As EventArgs) Handles Button78.Click
+        Me.WindowState = FormWindowState.Minimized
+    End Sub
+
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         FileOpen(1, "records.txt", OpenMode.Random,,, Len(prec))
 
