@@ -1463,7 +1463,7 @@ Partial Class Form1
         Me.Button73.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Button73.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button73.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button73.FlatAppearance.BorderSize = 3
+        Me.Button73.FlatAppearance.BorderSize = 0
         Me.Button73.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button73.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button73.ForeColor = System.Drawing.SystemColors.ButtonHighlight
@@ -1479,7 +1479,7 @@ Partial Class Form1
         Me.Button74.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Button74.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button74.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button74.FlatAppearance.BorderSize = 3
+        Me.Button74.FlatAppearance.BorderSize = 0
         Me.Button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button74.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button74.ForeColor = System.Drawing.SystemColors.ButtonHighlight
@@ -1495,7 +1495,7 @@ Partial Class Form1
         Me.Button75.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Button75.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button75.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button75.FlatAppearance.BorderSize = 3
+        Me.Button75.FlatAppearance.BorderSize = 0
         Me.Button75.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button75.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button75.ForeColor = System.Drawing.SystemColors.ButtonHighlight
@@ -1511,7 +1511,7 @@ Partial Class Form1
         Me.Button76.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Button76.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button76.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button76.FlatAppearance.BorderSize = 3
+        Me.Button76.FlatAppearance.BorderSize = 0
         Me.Button76.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button76.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button76.ForeColor = System.Drawing.SystemColors.ButtonHighlight
@@ -1527,7 +1527,7 @@ Partial Class Form1
         Me.Button77.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Button77.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button77.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
-        Me.Button77.FlatAppearance.BorderSize = 3
+        Me.Button77.FlatAppearance.BorderSize = 0
         Me.Button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button77.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button77.ForeColor = System.Drawing.SystemColors.ButtonHighlight
