@@ -1608,6 +1608,7 @@ Partial Class Form1
         Me.Button78.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Button78.FlatAppearance.BorderSize = 0
         Me.Button78.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button78.ForeColor = System.Drawing.Color.MidnightBlue
         Me.Button78.Location = New System.Drawing.Point(1304, -2)
         Me.Button78.Name = "Button78"
         Me.Button78.Size = New System.Drawing.Size(43, 35)

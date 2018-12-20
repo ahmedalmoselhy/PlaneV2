@@ -214,4 +214,12 @@ Public Class Form1
             End If
         Next
     End Sub
+    Private Sub Form1_Deactivate(sender As Object, e As EventArgs) Handles Me.Deactivate
+        Button77.BackColor = Color.WhiteSmoke
+        Button77.ForeColor = Color.MidnightBlue
+    End Sub
+    Private Sub Form1_Activated(sender As Object, e As EventArgs) Handles Me.Activated
+        Button77.BackColor = Color.Red
+        Button77.ForeColor = Color.White
+    End Sub
 End Class
