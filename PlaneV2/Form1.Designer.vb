@@ -1596,18 +1596,18 @@ Partial Class Form1
         '
         'Button77
         '
-        Me.Button77.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Button77.BackColor = System.Drawing.Color.Red
         Me.Button77.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Button77.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer), CType(CType(64, Byte), Integer))
         Me.Button77.FlatAppearance.BorderSize = 0
         Me.Button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button77.Font = New System.Drawing.Font("Microsoft Tai Le", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button77.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Button77.Location = New System.Drawing.Point(829, 802)
+        Me.Button77.Location = New System.Drawing.Point(1348, -3)
         Me.Button77.Name = "Button77"
-        Me.Button77.Size = New System.Drawing.Size(216, 49)
+        Me.Button77.Size = New System.Drawing.Size(41, 36)
         Me.Button77.TabIndex = 6
-        Me.Button77.Text = "Exit"
+        Me.Button77.Text = "X"
         Me.Button77.UseVisualStyleBackColor = False
         '
         'Form1
@@ -1723,6 +1723,7 @@ Partial Class Form1
         Me.ImeMode = System.Windows.Forms.ImeMode.[On]
         Me.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Name = "Form1"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Egypt Airways"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
