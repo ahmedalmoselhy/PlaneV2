@@ -22,7 +22,6 @@ Partial Class Form1
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
@@ -125,19 +124,11 @@ Partial Class Form1
         Me.Button76 = New System.Windows.Forms.Button()
         Me.Button77 = New System.Windows.Forms.Button()
         Me.Button78 = New System.Windows.Forms.Button()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = Global.PlaneV2.My.Resources.Resources.sd
-        Me.PictureBox1.Location = New System.Drawing.Point(-2, 12)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(1391, 856)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 0
-        Me.PictureBox1.TabStop = False
         '
         'Button1
         '
@@ -146,7 +137,7 @@ Partial Class Form1
         Me.Button1.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(602, 166)
+        Me.Button1.Location = New System.Drawing.Point(602, 173)
         Me.Button1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(43, 37)
@@ -161,7 +152,7 @@ Partial Class Form1
         Me.Button2.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(644, 166)
+        Me.Button2.Location = New System.Drawing.Point(644, 173)
         Me.Button2.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(43, 37)
@@ -176,7 +167,7 @@ Partial Class Form1
         Me.Button3.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.Location = New System.Drawing.Point(694, 166)
+        Me.Button3.Location = New System.Drawing.Point(694, 173)
         Me.Button3.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(43, 37)
@@ -191,7 +182,7 @@ Partial Class Form1
         Me.Button4.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(735, 166)
+        Me.Button4.Location = New System.Drawing.Point(735, 173)
         Me.Button4.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(43, 37)
@@ -206,7 +197,7 @@ Partial Class Form1
         Me.Button5.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(602, 210)
+        Me.Button5.Location = New System.Drawing.Point(602, 217)
         Me.Button5.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(43, 37)
@@ -221,7 +212,7 @@ Partial Class Form1
         Me.Button6.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.Location = New System.Drawing.Point(644, 210)
+        Me.Button6.Location = New System.Drawing.Point(644, 217)
         Me.Button6.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(43, 37)
@@ -236,7 +227,7 @@ Partial Class Form1
         Me.Button7.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button7.Location = New System.Drawing.Point(694, 210)
+        Me.Button7.Location = New System.Drawing.Point(694, 217)
         Me.Button7.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button7.Name = "Button7"
         Me.Button7.Size = New System.Drawing.Size(43, 37)
@@ -251,7 +242,7 @@ Partial Class Form1
         Me.Button8.FlatAppearance.CheckedBackColor = System.Drawing.Color.Fuchsia
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.Location = New System.Drawing.Point(735, 210)
+        Me.Button8.Location = New System.Drawing.Point(735, 217)
         Me.Button8.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(43, 37)
@@ -1286,7 +1277,7 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.SystemColors.MenuHighlight
+        Me.Label1.BackColor = System.Drawing.Color.WhiteSmoke
         Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(1168, 816)
         Me.Label1.Name = "Label1"
@@ -1296,10 +1287,11 @@ Partial Class Form1
         'Label2
         '
         Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Century Schoolbook", 24.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(12, 14)
+        Me.Label2.Font = New System.Drawing.Font("Century Schoolbook", 27.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.MidnightBlue
+        Me.Label2.Location = New System.Drawing.Point(55, 3)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(310, 37)
+        Me.Label2.Size = New System.Drawing.Size(361, 43)
         Me.Label2.TabIndex = 3
         Me.Label2.Text = "EGYPT AIRWAYS"
         '
@@ -1623,12 +1615,35 @@ Partial Class Form1
         Me.Button78.Text = "ــــ"
         Me.Button78.UseVisualStyleBackColor = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.PlaneV2.My.Resources.Resources.icon
+        Me.PictureBox2.Location = New System.Drawing.Point(-7, 2)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(61, 50)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 8
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = Global.PlaneV2.My.Resources.Resources.sd
+        Me.PictureBox1.Location = New System.Drawing.Point(-2, 40)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(3, 4, 3, 4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(1391, 828)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 15.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.WhiteSmoke
         Me.ClientSize = New System.Drawing.Size(1387, 863)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Button78)
         Me.Controls.Add(Me.Button76)
         Me.Controls.Add(Me.Button75)
@@ -1657,7 +1672,6 @@ Partial Class Form1
         Me.Controls.Add(Me.Label11)
         Me.Controls.Add(Me.Label9)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button72)
         Me.Controls.Add(Me.Button68)
@@ -1739,6 +1753,7 @@ Partial Class Form1
         Me.Name = "Form1"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Egypt Airways"
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -1848,4 +1863,5 @@ Partial Class Form1
     Friend WithEvents Button76 As Button
     Friend WithEvents Button77 As Button
     Friend WithEvents Button78 As Button
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

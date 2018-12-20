@@ -63,6 +63,16 @@ Namespace My.Resources
         '''<summary>
         '''  Looks up a localized resource of type System.Drawing.Bitmap.
         '''</summary>
+        Friend ReadOnly Property icon() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("icon", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        '''<summary>
+        '''  Looks up a localized resource of type System.Drawing.Bitmap.
+        '''</summary>
         Friend ReadOnly Property kisspng_airbus_a340_200_aircraft_airplane_airbus_a380_aircraft_5acdf6dc97e3e6_7757789415234475166222() As System.Drawing.Bitmap
             Get
                 Dim obj As Object = ResourceManager.GetObject("kisspng-airbus-a340-200-aircraft-airplane-airbus-a380-aircraft-5acdf6dc97e3e6.775"& _ 

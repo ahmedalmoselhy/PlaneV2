@@ -16,6 +16,30 @@ Public Structure hagz
 End Structure
 Public Class Form1
     Inherits System.Windows.Forms.Form
+    Private IsFormBeingDragged As Boolean = False
+    Private MouseDownX As Integer
+    Private MouseDownY As Integer
+    Private Sub Form1_MouseDown(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseDown
+        If e.Button = MouseButtons.Left Then
+            IsFormBeingDragged = True
+            MouseDownX = e.X
+            MouseDownY = e.Y
+        End If
+    End Sub
+    Private Sub Form1_MouseUp(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseUp
+        If e.Button = MouseButtons.Left Then
+            IsFormBeingDragged = False
+        End If
+    End Sub
+    Private Sub Form1_MouseMove(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseMove
+        If IsFormBeingDragged Then
+            Dim temp As Point = New Point()
+            temp.X = Me.Location.X + (e.X - MouseDownX)
+            temp.Y = Me.Location.Y + (e.Y - MouseDownY)
+            Me.Location = temp
+            temp = Nothing
+        End If
+    End Sub
     Dim buttons(71) As Button
     Dim z, i, s, x, j As Integer
     Dim position As Integer
@@ -85,6 +109,8 @@ Public Class Form1
                 prec.passenger(j) = "0"
                 prec.phone(j) = "0"
                 prec.address(j) = "0"
+                s = Val(TextBox1.Text)
+                FilePut(1, prec, s)
             ElseIf x = 2 Then
                 buttons(j).BackColor = Color.Orange
                 Exit Sub
@@ -187,36 +213,5 @@ Public Class Form1
                 buttons(i).BackColor = Color.Lime
             End If
         Next
-    End Sub
-    Private IsFormBeingDragged As Boolean = False
-    Private MouseDownX As Integer
-    Private MouseDownY As Integer
-
-    Private Sub Form1_MouseDown(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseDown
-
-        If e.Button = MouseButtons.Left Then
-            IsFormBeingDragged = True
-            MouseDownX = e.X
-            MouseDownY = e.Y
-        End If
-    End Sub
-
-    Private Sub Form1_MouseUp(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseUp
-
-        If e.Button = MouseButtons.Left Then
-            IsFormBeingDragged = False
-        End If
-    End Sub
-
-    Private Sub Form1_MouseMove(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseMove
-
-        If IsFormBeingDragged Then
-            Dim temp As Point = New Point()
-
-            temp.X = Me.Location.X + (e.X - MouseDownX)
-            temp.Y = Me.Location.Y + (e.Y - MouseDownY)
-            Me.Location = temp
-            temp = Nothing
-        End If
     End Sub
 End Class
