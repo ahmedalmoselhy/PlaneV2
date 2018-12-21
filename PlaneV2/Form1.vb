@@ -19,6 +19,7 @@ Public Class Form1
     Private IsFormBeingDragged As Boolean = False
     Private MouseDownX As Integer
     Private MouseDownY As Integer
+    ' this part is responsible for moving the form without the titlebar
     Private Sub Form1_MouseDown(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseDown
         If e.Button = MouseButtons.Left Then
             IsFormBeingDragged = True
@@ -40,6 +41,7 @@ Public Class Form1
             temp = Nothing
         End If
     End Sub
+    ' ==================
     Dim buttons(71) As Button
     Dim z, i, s, x, j As Integer
     Dim position As Integer
